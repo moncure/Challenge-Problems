@@ -19,10 +19,18 @@ import java.awt.Point;
   public class Box {
     
     
-    int x1 = 0;
-    int y1 = 0;
-    int x2 = 0;
-    int y2 = 0;
+    int x1;
+    int y1;
+    int x2;
+    int y2;
+    
+    //The default Box constructor sets all corners to 0;
+    Box(){
+       x1 = 0;
+       y1 = 0;
+       x2 = 0;
+       y2 = 0;
+    }
     
     Box(int x1, int y1, int x2, int y2) {
             this.x1 = x1;
